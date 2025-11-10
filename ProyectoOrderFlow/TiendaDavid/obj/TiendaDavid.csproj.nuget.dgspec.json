@@ -51,19 +51,27 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AspNetCore.HealthChecks.Uris": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Aspire.Dashboard.Sdk.win-x64": {
               "target": "Package",
-              "version": "[9.5.0, )",
+              "version": "[9.5.2, )",
               "autoReferenced": true
             },
             "Aspire.Hosting.AppHost": {
               "target": "Package",
-              "version": "[9.5.0, )"
+              "version": "[9.5.2, )"
             },
             "Aspire.Hosting.Orchestration.win-x64": {
               "target": "Package",
-              "version": "[9.5.0, )",
+              "version": "[9.5.2, )",
               "autoReferenced": true
+            },
+            "Aspire.Hosting.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.5.2, )"
             }
           },
           "imports": [

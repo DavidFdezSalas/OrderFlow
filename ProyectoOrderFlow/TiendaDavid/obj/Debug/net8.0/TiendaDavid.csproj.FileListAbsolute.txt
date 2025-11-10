@@ -111,7 +111,6 @@ C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debu
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debug\net8.0\TiendaDavid.AssemblyInfoInputs.cache
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debug\net8.0\TiendaDavid.AssemblyInfo.cs
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debug\net8.0\TiendaDavid.csproj.CoreCompileInputs.cache
-C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debug\net8.0\Aspire\references\.ProjectMetadata.g.cs
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debug\net8.0\Aspire\references\_AppHost.ProjectMetadata.g.cs
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debug\net8.0\TiendaDavid.sourcelink.json
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debug\net8.0\TiendaDa.D8F04710.Up2Date
@@ -120,3 +119,7 @@ C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debu
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debug\net8.0\TiendaDavid.pdb
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debug\net8.0\TiendaDavid.genruntimeconfig.cache
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debug\net8.0\ref\TiendaDavid.dll
+C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debug\net8.0\Aspire\references\TiendaDavid_Identity.ProjectMetadata.g.cs
+C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\Npgsql.dll
+C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\Aspire.Hosting.PostgreSQL.dll
+C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\HealthChecks.NpgSql.dll
