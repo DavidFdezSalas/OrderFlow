@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9688CF6-99B6-4006-906B-FA92ABF5E91E}|TiendaDavid\\TiendaDavid.csproj|c:\\users\\oceano\\documents\\david\\orderflow\\proyectoorderflow\\tiendadavid\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9688CF6-99B6-4006-906B-FA92ABF5E91E}|TiendaDavid\\TiendaDavid.csproj|solutionrelative:tiendadavid\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A0CC110-2FA6-4058-A2DC-2FF4D4A25EF7}|TiendaDavid.Identity\\TiendaDavid.Identity.csproj|c:\\users\\oceano\\documents\\david\\orderflow\\proyectoorderflow\\tiendadavid.identity\\data\\dbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0CC110-2FA6-4058-A2DC-2FF4D4A25EF7}|TiendaDavid.Identity\\TiendaDavid.Identity.csproj|solutionrelative:tiendadavid.identity\\data\\dbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9688CF6-99B6-4006-906B-FA92ABF5E91E}|TiendaDavid\\TiendaDavid.csproj|c:\\users\\oceano\\documents\\david\\orderflow\\proyectoorderflow\\tiendadavid\\tiendadavid.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A9688CF6-99B6-4006-906B-FA92ABF5E91E}|TiendaDavid\\TiendaDavid.csproj|solutionrelative:tiendadavid\\tiendadavid.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{2A0CC110-2FA6-4058-A2DC-2FF4D4A25EF7}|TiendaDavid.Identity\\TiendaDavid.Identity.csproj|c:\\users\\oceano\\documents\\david\\orderflow\\proyectoorderflow\\tiendadavid.identity\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0CC110-2FA6-4058-A2DC-2FF4D4A25EF7}|TiendaDavid.Identity\\TiendaDavid.Identity.csproj|solutionrelative:tiendadavid.identity\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9688CF6-99B6-4006-906B-FA92ABF5E91E}|TiendaDavid\\TiendaDavid.csproj|c:\\users\\oceano\\documents\\david\\orderflow\\proyectoorderflow\\tiendadavid\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A9688CF6-99B6-4006-906B-FA92ABF5E91E}|TiendaDavid\\TiendaDavid.csproj|solutionrelative:tiendadavid\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{2A0CC110-2FA6-4058-A2DC-2FF4D4A25EF7}|TiendaDavid.Identity\\TiendaDavid.Identity.csproj|c:\\users\\oceano\\documents\\david\\orderflow\\proyectoorderflow\\tiendadavid.identity\\tiendadavid.identity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2A0CC110-2FA6-4058-A2DC-2FF4D4A25EF7}|TiendaDavid.Identity\\TiendaDavid.Identity.csproj|solutionrelative:tiendadavid.identity\\tiendadavid.identity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A0CC110-2FA6-4058-A2DC-2FF4D4A25EF7}|TiendaDavid.Identity\\TiendaDavid.Identity.csproj|c:\\users\\oceano\\documents\\david\\orderflow\\proyectoorderflow\\tiendadavid.identity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A0CC110-2FA6-4058-A2DC-2FF4D4A25EF7}|TiendaDavid.Identity\\TiendaDavid.Identity.csproj|solutionrelative:tiendadavid.identity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|Solution Items{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|Solution Items{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|solutionrelative:docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A9688CF6-99B6-4006-906B-FA92ABF5E91E}|TiendaDavid\\TiendaDavid.csproj|c:\\users\\oceano\\documents\\david\\orderflow\\proyectoorderflow\\tiendadavid\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9688CF6-99B6-4006-906B-FA92ABF5E91E}|TiendaDavid\\TiendaDavid.csproj|solutionrelative:tiendadavid\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 64,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,28 +38,54 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid.Identity\\Data\\DBContextFactory.cs",
+              "RelativeDocumentMoniker": "TiendaDavid.Identity\\Data\\DBContextFactory.cs",
+              "ToolTip": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid.Identity\\Data\\DBContextFactory.cs",
+              "RelativeToolTip": "TiendaDavid.Identity\\Data\\DBContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T18:26:13.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid.Identity\\Data\\DbContext.cs",
+              "RelativeDocumentMoniker": "TiendaDavid.Identity\\Data\\DbContext.cs",
+              "ToolTip": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid.Identity\\Data\\DbContext.cs",
+              "RelativeToolTip": "TiendaDavid.Identity\\Data\\DbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T17:53:51.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid\\appsettings.json",
-              "RelativeDocumentMoniker": "TiendaDavid\\appsettings.json",
-              "ToolTip": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid\\appsettings.json",
-              "RelativeToolTip": "TiendaDavid\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-10T18:11:05.244Z",
+              "Title": "TiendaDavid.Identity",
+              "DocumentMoniker": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid.Identity\\TiendaDavid.Identity.csproj",
+              "RelativeDocumentMoniker": "TiendaDavid.Identity\\TiendaDavid.Identity.csproj",
+              "ToolTip": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid.Identity\\TiendaDavid.Identity.csproj",
+              "RelativeToolTip": "TiendaDavid.Identity\\TiendaDavid.Identity.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-11T17:52:22.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "docker-compose.yaml",
-              "DocumentMoniker": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\docker-compose.yaml",
-              "RelativeDocumentMoniker": "docker-compose.yaml",
-              "ToolTip": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\docker-compose.yaml",
-              "RelativeToolTip": "docker-compose.yaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-11-10T17:50:40.508Z",
+              "Title": "AppHost.cs",
+              "DocumentMoniker": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid\\AppHost.cs",
+              "RelativeDocumentMoniker": "TiendaDavid\\AppHost.cs",
+              "ToolTip": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid\\AppHost.cs",
+              "RelativeToolTip": "TiendaDavid\\AppHost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T17:22:01.61Z",
               "EditorCaption": ""
             },
             {
@@ -70,35 +96,9 @@
               "RelativeDocumentMoniker": "TiendaDavid.Identity\\Program.cs",
               "ToolTip": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid.Identity\\Program.cs",
               "RelativeToolTip": "TiendaDavid.Identity\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T16:53:39.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TiendaDavid",
-              "DocumentMoniker": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid\\TiendaDavid.csproj",
-              "RelativeDocumentMoniker": "TiendaDavid\\TiendaDavid.csproj",
-              "ToolTip": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid\\TiendaDavid.csproj",
-              "RelativeToolTip": "TiendaDavid\\TiendaDavid.csproj",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-10T16:35:01.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppHost.cs",
-              "DocumentMoniker": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid\\AppHost.cs",
-              "RelativeDocumentMoniker": "TiendaDavid\\AppHost.cs",
-              "ToolTip": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid\\AppHost.cs",
-              "RelativeToolTip": "TiendaDavid\\AppHost.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T16:41:08.409Z",
+              "WhenOpened": "2025-11-11T17:11:11.373Z",
               "EditorCaption": ""
             }
           ]

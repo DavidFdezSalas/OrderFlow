@@ -5,6 +5,11 @@ C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debu
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\TiendaDavid.pdb
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\Aspire.Hosting.dll
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\Aspire.Hosting.AppHost.dll
+C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\Aspire.Hosting.NodeJs.dll
+C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\Aspire.Hosting.PostgreSQL.dll
+C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\Aspire.Hosting.Redis.dll
+C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\HealthChecks.NpgSql.dll
+C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\HealthChecks.Redis.dll
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\HealthChecks.Uris.dll
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\Fractions.dll
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\Google.Protobuf.dll
@@ -47,8 +52,11 @@ C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debu
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\Microsoft.VisualStudio.Validation.dll
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\Nerdbank.Streams.dll
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\Npgsql.dll
+C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\Polly.Core.dll
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\Semver.dll
+C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\StackExchange.Redis.dll
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\StreamJsonRpc.dll
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\System.IO.Hashing.dll
@@ -111,6 +119,7 @@ C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debu
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debug\net8.0\TiendaDavid.AssemblyInfoInputs.cache
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debug\net8.0\TiendaDavid.AssemblyInfo.cs
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debug\net8.0\TiendaDavid.csproj.CoreCompileInputs.cache
+C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debug\net8.0\Aspire\references\TiendaDavid_Identity.ProjectMetadata.g.cs
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debug\net8.0\Aspire\references\_AppHost.ProjectMetadata.g.cs
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debug\net8.0\TiendaDavid.sourcelink.json
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debug\net8.0\TiendaDa.D8F04710.Up2Date
@@ -119,7 +128,3 @@ C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debu
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debug\net8.0\TiendaDavid.pdb
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debug\net8.0\TiendaDavid.genruntimeconfig.cache
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debug\net8.0\ref\TiendaDavid.dll
-C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\obj\Debug\net8.0\Aspire\references\TiendaDavid_Identity.ProjectMetadata.g.cs
-C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\Npgsql.dll
-C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\Aspire.Hosting.PostgreSQL.dll
-C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid\bin\Debug\net8.0\HealthChecks.NpgSql.dll
