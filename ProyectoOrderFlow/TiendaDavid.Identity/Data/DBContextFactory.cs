@@ -9,7 +9,7 @@ namespace TiendaDavid.Identity.Data
         public ApplicationDbContext CreateDbContext(string[] args)
         {
             // La cadena de conexión es correcta (aunque la contraseña es muy compleja para mostrarla aquí).
-            const string connectionString = "Host=localhost;Port=62094;Username=postgres;Password=qWfebxck}GDH(j!!j3u8Z+;Database=identitydb";
+            const string connectionString = "Host=localhost;Port=51197;Username=postgres;Password=qWfebxck}GDH(j!!j3u8Z+;Database=identitydb";
 
             var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
 

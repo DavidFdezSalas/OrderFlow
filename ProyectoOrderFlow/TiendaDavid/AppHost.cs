@@ -1,7 +1,3 @@
-using Aspire.Hosting;
-using Aspire.Hosting.Postgres;
-
-
 var builder = DistributedApplication.CreateBuilder(args);
 
 var postgres = builder.AddPostgres("postgres").WithLifetime(ContainerLifetime.Persistent).WithHostPort(51197);

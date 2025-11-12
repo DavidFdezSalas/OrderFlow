@@ -11,16 +11,16 @@ using TiendaDavid.Identity.Data;
 
 namespace TiendaDavid.Identity.Migrations
 {
-    [DbContext(typeof(DbContext))]
-    [Migration("20251112160420_InitialIdentitySetup")]
-    partial class InitialIdentitySetup
+    [DbContext(typeof(ApplicationDbContext))]
+    [Migration("20251112174728_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.11")
+                .HasAnnotation("ProductVersion", "9.0.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
