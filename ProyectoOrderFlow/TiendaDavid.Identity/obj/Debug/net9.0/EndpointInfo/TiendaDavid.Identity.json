@@ -71,10 +71,5 @@
         "additionalProperties": false
       }
     }
-  },
-  "tags": [
-    {
-      "name": "WeatherForecast"
-    }
-  ]
+  }
 }
