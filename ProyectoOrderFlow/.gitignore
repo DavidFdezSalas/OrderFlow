@@ -1,0 +1,77 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# IDEs
+.vscode/
+.idea/
+
+# Build outputs
+/bin/
+/obj/
+/out/
+/publish/
+/artifacts/
+
+# .NET / NuGet
+*.nupkg
+.nuget/
+.nuget/packages/
+packages/
+
+# ASP.NET Core local settings / secrets
+appsettings.Development.json
+secrets.json
+
+# Entity Framework local DBs (si usas LocalDB/SQLite)
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Node / JavaScript / TypeScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+lib/
+.eslintcache
+.cache/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Test results / coverage
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.trx
+
+# Logs
+*.log
+logs/
+
+# Docker
+docker-compose.override.yml
+
+# Misc / OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Extensions / packages
+*.vsix
+
+# IMPORTANT: versiona las migraciones de EF Core (no las ignores)
+# Si tienes carpetas Migrations/ en tus proyectos, mantenlas versionadas:
+!**/Migrations/

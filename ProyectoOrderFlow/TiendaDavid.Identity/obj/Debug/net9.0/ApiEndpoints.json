@@ -1,15 +1,21 @@
 [
   {
-    "ContainingType": "TiendaDavid.Identity.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
+    "ContainingType": "TiendaDavid.Identity.Controllers.UsersController",
+    "Method": "CreateUser",
+    "RelativePath": "api/Users/create",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TiendaDavid.Identity.Controllers.UserCreationRequest",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[TiendaDavid.Identity.WeatherForecast, TiendaDavid.Identity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "TiendaDavid.Identity.Controllers.UserCreationResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -17,7 +23,6 @@
         ],
         "StatusCode": 200
       }
-    ],
-    "EndpointName": "GetWeatherForecast"
+    ]
   }
 ]

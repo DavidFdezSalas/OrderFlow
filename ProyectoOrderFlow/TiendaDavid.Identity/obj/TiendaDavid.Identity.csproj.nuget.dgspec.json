@@ -55,19 +55,7 @@
               "target": "Package",
               "version": "[9.5.2, )"
             },
-            "FluentValidation.DependencyInjectionExtensions": {
-              "target": "Package",
-              "version": "[12.1.0, )"
-            },
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.10, )"
-            },
-            "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.10, )"
             },
@@ -81,25 +69,17 @@
               "target": "Package",
               "version": "[1.22.1, )"
             },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+            "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[6.6.2, )"
             },
-            "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
+            "Swashbuckle.AspNetCore.SwaggerGen": {
               "target": "Package",
-              "version": "[1.13.1, )"
+              "version": "[6.6.2, )"
             },
-            "OpenTelemetry.Extensions.Hosting": {
+            "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
-              "version": "[1.13.1, )"
-            },
-            "OpenTelemetry.Instrumentation.AspNetCore": {
-              "target": "Package",
-              "version": "[1.13.0, )"
-            },
-            "Scalar.AspNetCore": {
-              "target": "Package",
-              "version": "[2.10.1, )"
+              "version": "[6.6.2, )"
             }
           },
           "imports": [
