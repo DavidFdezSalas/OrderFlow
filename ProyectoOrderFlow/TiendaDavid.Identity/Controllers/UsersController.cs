@@ -50,7 +50,12 @@ namespace TiendaDavid.Identity.Controllers
 
 
         }
+        //[HttpPost("login")]
+        //public async Task<ActionResult<UserCreationResponse>> LoginUser(UserLoginRequest request)
+        //{
 
+
+        //}
 
     }
 
@@ -65,6 +70,20 @@ namespace TiendaDavid.Identity.Controllers
     {
         public required string UserName { get; init; }
         public required string Email { get; init; }
+        public required string Password { get; init; }
+    }
+
+    public record UserLoginResponse
+    {
+        public required string UserName { get; init; }
+        public required string Message { get; init; }
+        public IEnumerable<string>? Errors { get; set; }
+
+    }
+
+    public record UserLoginRequest
+    {
+        public required string UserName { get; init; } 
         public required string Password { get; init; }
     }
 }
