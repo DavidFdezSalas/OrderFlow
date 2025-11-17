@@ -103,8 +103,8 @@ namespace TiendaDavid.Identity.Controllers
             _logger.LogInformation("User updated: {name}", user.Id);
             return Ok(new UserUpdateResponse()
             {
-                Email = request.Email,
-                UserName = request.UserName,
+                Email = user.Email,
+                UserName = user.UserName,
                 Message = "User updated successfully"
             });
 
