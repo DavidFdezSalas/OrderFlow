@@ -40,5 +40,36 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaDavid.Identity.Controllers.UsersController",
+    "Method": "Updateuser",
+    "RelativePath": "api/Users/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TiendaDavid.Identity.Controllers.UsersController\u002BUserUpdateRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TiendaDavid.Identity.Controllers.UsersController\u002BUserUpdateResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

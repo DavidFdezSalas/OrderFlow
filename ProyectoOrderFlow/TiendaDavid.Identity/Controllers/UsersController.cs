@@ -42,11 +42,11 @@ namespace TiendaDavid.Identity.Controllers
 
             _logger.LogInformation("User created successfully: {Email}", request.Email);
 
-            return new UserCreationResponse()
+            return Ok(new UserCreationResponse()
             {
                 Email = request.Email,
                 Message = "User created successfully"
-            };
+            });
 
 
         }
@@ -65,11 +65,49 @@ namespace TiendaDavid.Identity.Controllers
             if (!result.Succeeded)
             {
                 _logger.LogError("Error deleting user: {Errors}", result.Errors.Select(e => e.Description));
-                return BadRequest(new { message = "Error deleting user:",errors = result.Errors.Select(e => e.Description)});
+                return BadRequest(new { message = "Error deleting user:", errors = result.Errors.Select(e => e.Description) });
             }
 
-            _logger.LogInformation("User deleted: {name}", user.UserName);
+            _logger.LogInformation("User deleted: {name}", user.Id);
             return NoContent();
+
+        }
+
+        [HttpPut("update/{id}")]
+        public async Task<ActionResult<UserUpdateResponse>> Updateuser(UserUpdateRequest request, string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            if (user == null)
+            {
+                _logger.LogWarning("User not found: {id}", id);
+                return NotFound(new { message = "User not found", id = id });
+            }
+
+            if (request.UserName != null && request.UserName != "")
+            {
+                user.UserName = request.UserName;
+            }
+
+            if (request.Email != null && request.Email != "")
+            {
+                user.Email = request.Email;
+            }
+
+            var result = await _userManager.UpdateAsync(user);
+            if (!result.Succeeded)
+            {
+                _logger.LogError("Error updating user: {Errors}", result.Errors.Select(e => e.Description));
+                return BadRequest(new { message = "Error updating user:", errors = result.Errors.Select(e => e.Description) });
+            }
+
+            _logger.LogInformation("User updated: {name}", user.Id);
+            return Ok(new UserUpdateResponse()
+            {
+                Email = request.Email,
+                UserName = request.UserName,
+                Message = "User updated successfully"
+            });
+
 
         }
 
@@ -92,6 +130,7 @@ namespace TiendaDavid.Identity.Controllers
         public record UserUpdateResponse
         {
             public required string UserName { get; init; }
+            public required string Email { get; init; }
             public required string Message { get; init; }
             public IEnumerable<string>? Errors { get; set; }
 
@@ -99,8 +138,8 @@ namespace TiendaDavid.Identity.Controllers
 
         public record UserUpdateRequest
         {
-            public required string UserName { get; init; }
-            public required string Password { get; init; }
+            public string UserName { get; init; }
+            public string Email { get; init; }
         }
     }
 }
