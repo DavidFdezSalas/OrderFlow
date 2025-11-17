@@ -111,6 +111,28 @@ namespace TiendaDavid.Identity.Controllers
 
         }
 
+        [HttpGet("/{id}")]
+        public async Task<ActionResult<UserResponse>> GetUser(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            if (user == null)
+            {
+                _logger.LogWarning("User not found: {id}", id);
+                return NotFound(new { message = "User not found", id = id });
+            }
+
+            var response = new UserResponse()
+            {
+                Id = user.Id,
+                UserName = user.UserName,
+                Email = user.Email
+            };
+
+            _logger.LogInformation("User found: {id}", user.Id);
+            return Ok(response);
+
+        }
+
 
 
         public record UserCreationResponse
@@ -140,6 +162,14 @@ namespace TiendaDavid.Identity.Controllers
         {
             public string UserName { get; init; }
             public string Email { get; init; }
+        }
+
+        public record UserResponse
+        {
+            public required string Id { get; init; }
+            public required string UserName { get; init; }
+            public required string Email { get; init; }
+
         }
     }
 }

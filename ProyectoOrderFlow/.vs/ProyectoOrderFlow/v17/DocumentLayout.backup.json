@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 64,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,10 +27,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -53,7 +49,7 @@
               "RelativeDocumentMoniker": "TiendaDavid.Identity\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid.Identity\\Controllers\\UsersController.cs",
               "RelativeToolTip": "TiendaDavid.Identity\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAkwGwAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAkwFoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T15:53:02.83Z",
               "EditorCaption": ""

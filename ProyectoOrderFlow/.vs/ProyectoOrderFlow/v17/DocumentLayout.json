@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2A0CC110-2FA6-4058-A2DC-2FF4D4A25EF7}|TiendaDavid.Identity\\TiendaDavid.Identity.csproj|c:\\users\\oceano\\documents\\david\\orderflow\\proyectoorderflow\\tiendadavid.identity\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A0CC110-2FA6-4058-A2DC-2FF4D4A25EF7}|TiendaDavid.Identity\\TiendaDavid.Identity.csproj|solutionrelative:tiendadavid.identity\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{603C31E1-1D2F-49DD-B332-BED61381BE83}|TiendaDavid.ServiceDefaults\\TiendaDavid.ServiceDefaults.csproj|c:\\users\\oceano\\documents\\david\\orderflow\\proyectoorderflow\\tiendadavid.servicedefaults\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{603C31E1-1D2F-49DD-B332-BED61381BE83}|TiendaDavid.ServiceDefaults\\TiendaDavid.ServiceDefaults.csproj|solutionrelative:tiendadavid.servicedefaults\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,17 +25,8 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid.ServiceDefaults\\Class1.cs",
-              "RelativeDocumentMoniker": "TiendaDavid.ServiceDefaults\\Class1.cs",
-              "ToolTip": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid.ServiceDefaults\\Class1.cs",
-              "RelativeToolTip": "TiendaDavid.ServiceDefaults\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T17:11:21.479Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -49,7 +36,7 @@
               "RelativeDocumentMoniker": "TiendaDavid.Identity\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid.Identity\\Controllers\\UsersController.cs",
               "RelativeToolTip": "TiendaDavid.Identity\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAkwFoAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAkwGkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T15:53:02.83Z",
               "EditorCaption": ""
