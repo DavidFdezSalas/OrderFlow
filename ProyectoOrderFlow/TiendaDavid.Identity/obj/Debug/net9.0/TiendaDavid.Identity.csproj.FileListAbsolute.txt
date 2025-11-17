@@ -150,3 +150,5 @@ C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid.Identity
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid.Identity\obj\Debug\net9.0\TiendaDavid.Identity.pdb
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid.Identity\obj\Debug\net9.0\TiendaDavid.Identity.genruntimeconfig.cache
 C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid.Identity\obj\Debug\net9.0\ref\TiendaDavid.Identity.dll
+C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid.Identity\bin\Debug\net9.0\TiendaDavid.ServiceDefaults.dll
+C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid.Identity\bin\Debug\net9.0\TiendaDavid.ServiceDefaults.pdb

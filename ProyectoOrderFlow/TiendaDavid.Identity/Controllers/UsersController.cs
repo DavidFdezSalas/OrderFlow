@@ -50,40 +50,57 @@ namespace TiendaDavid.Identity.Controllers
 
 
         }
-        //[HttpPost("login")]
-        //public async Task<ActionResult<UserCreationResponse>> LoginUser(UserLoginRequest request)
-        //{
+
+        [HttpDelete("delete/{id}")]
+        public async Task<ActionResult> DeleteUser(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            if (user == null)
+            {
+                _logger.LogWarning("User not found: {id}", id);
+                return NotFound(new { message = "User not found", id = id });
+            }
+
+            var result = await _userManager.DeleteAsync(user);
+            if (!result.Succeeded)
+            {
+                _logger.LogError("Error deleting user: {Errors}", result.Errors.Select(e => e.Description));
+                return BadRequest(new { message = "Error deleting user:",errors = result.Errors.Select(e => e.Description)});
+            }
+
+            _logger.LogInformation("User deleted: {name}", user.UserName);
+            return NoContent();
+
+        }
 
 
-        //}
 
-    }
+        public record UserCreationResponse
+        {
+            public required string Email { get; set; }
+            public required string Message { get; set; }
+            public IEnumerable<string>? Errors { get; set; }
+        }
 
-    public record UserCreationResponse
-    {
-        public required string Email { get; set; }
-        public required string Message { get; set; }
-        public IEnumerable<string>? Errors { get; set; }
-    }
+        public record UserCreationRequest
+        {
+            public required string UserName { get; init; }
+            public required string Email { get; init; }
+            public required string Password { get; init; }
+        }
 
-    public record UserCreationRequest
-    {
-        public required string UserName { get; init; }
-        public required string Email { get; init; }
-        public required string Password { get; init; }
-    }
+        public record UserUpdateResponse
+        {
+            public required string UserName { get; init; }
+            public required string Message { get; init; }
+            public IEnumerable<string>? Errors { get; set; }
 
-    public record UserLoginResponse
-    {
-        public required string UserName { get; init; }
-        public required string Message { get; init; }
-        public IEnumerable<string>? Errors { get; set; }
+        }
 
-    }
-
-    public record UserLoginRequest
-    {
-        public required string UserName { get; init; } 
-        public required string Password { get; init; }
+        public record UserUpdateRequest
+        {
+            public required string UserName { get; init; }
+            public required string Password { get; init; }
+        }
     }
 }

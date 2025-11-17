@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaDavid.Identity", "Tie
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "tiendadavid.react", "TiendaDavid.React\tiendadavid.react.esproj", "{BA6B6E77-76ED-9CC5-0882-4D97BC34CD26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaDavid.ServiceDefaults", "TiendaDavid.ServiceDefaults\TiendaDavid.ServiceDefaults.csproj", "{603C31E1-1D2F-49DD-B332-BED61381BE83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{BA6B6E77-76ED-9CC5-0882-4D97BC34CD26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA6B6E77-76ED-9CC5-0882-4D97BC34CD26}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BA6B6E77-76ED-9CC5-0882-4D97BC34CD26}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{603C31E1-1D2F-49DD-B332-BED61381BE83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603C31E1-1D2F-49DD-B332-BED61381BE83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603C31E1-1D2F-49DD-B332-BED61381BE83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{603C31E1-1D2F-49DD-B332-BED61381BE83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

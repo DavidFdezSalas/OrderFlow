@@ -24,4 +24,8 @@
       <Folder Include="Dto\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\TiendaDavid.ServiceDefaults\TiendaDavid.ServiceDefaults.csproj" />
+    </ItemGroup>
+
 </Project>

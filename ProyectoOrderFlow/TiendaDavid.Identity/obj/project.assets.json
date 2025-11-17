@@ -1414,6 +1414,16 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "TiendaDavid.ServiceDefaults/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/TiendaDavid.ServiceDefaults.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TiendaDavid.ServiceDefaults.dll": {}
+        }
       }
     }
   },
@@ -3990,6 +4000,11 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "TiendaDavid.ServiceDefaults/1.0.0": {
+      "type": "project",
+      "path": "../TiendaDavid.ServiceDefaults/TiendaDavid.ServiceDefaults.csproj",
+      "msbuildProject": "../TiendaDavid.ServiceDefaults/TiendaDavid.ServiceDefaults.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4000,7 +4015,8 @@
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.22.1",
       "Swashbuckle.AspNetCore.Swagger >= 6.6.2",
       "Swashbuckle.AspNetCore.SwaggerGen >= 6.6.2",
-      "Swashbuckle.AspNetCore.SwaggerUI >= 6.6.2"
+      "Swashbuckle.AspNetCore.SwaggerUI >= 6.6.2",
+      "TiendaDavid.ServiceDefaults >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4035,7 +4051,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid.ServiceDefaults\\TiendaDavid.ServiceDefaults.csproj": {
+              "projectPath": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid.ServiceDefaults\\TiendaDavid.ServiceDefaults.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

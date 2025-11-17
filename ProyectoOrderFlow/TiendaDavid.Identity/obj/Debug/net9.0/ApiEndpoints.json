@@ -9,13 +9,13 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "TiendaDavid.Identity.Controllers.UserCreationRequest",
+        "Type": "TiendaDavid.Identity.Controllers.UsersController\u002BUserCreationRequest",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "TiendaDavid.Identity.Controllers.UserCreationResponse",
+        "Type": "TiendaDavid.Identity.Controllers.UsersController\u002BUserCreationResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -24,5 +24,21 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "TiendaDavid.Identity.Controllers.UsersController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Users/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
