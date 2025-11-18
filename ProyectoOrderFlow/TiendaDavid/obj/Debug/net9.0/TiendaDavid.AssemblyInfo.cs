@@ -12,21 +12,23 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("6aff7834-6d62-4083-a0f6-e72b67650e1a")]
-[assembly: System.Reflection.AssemblyMetadata("dcpclipath", "C:\\Users\\Oceano\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.5.2\\tools\\" +
-    "dcp.exe")]
-[assembly: System.Reflection.AssemblyMetadata("dcpextensionpaths", "C:\\Users\\Oceano\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.5.2\\tools\\" +
-    "ext\\")]
-[assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Users\\Oceano\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.5.2\\tools\\" +
-    "ext\\bin\\")]
-[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid")]
+[assembly: System.Reflection.AssemblyMetadata("dcpclipath", "C:\\Users\\gusi9\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.5.2\\tools\\d" +
+    "cp.exe")]
+[assembly: System.Reflection.AssemblyMetadata("dcpextensionpaths", "C:\\Users\\gusi9\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.5.2\\tools\\e" +
+    "xt\\")]
+[assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Users\\gusi9\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.5.2\\tools\\e" +
+    "xt\\bin\\")]
+[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\Users\\gusi9\\source\\repos\\DavidFdezSalas\\OrderFlow\\ProyectoOrderFlow\\TiendaDavi" +
+    "d")]
 [assembly: System.Reflection.AssemblyMetadata("apphostprojectname", "TiendaDavid.csproj")]
-[assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", "C:\\Users\\Oceano\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.5.2\\tools\\Aspire.D" +
-    "ashboard.exe")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid\\obj\\")]
+[assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", "C:\\Users\\gusi9\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.5.2\\tools\\Aspire.Da" +
+    "shboard.exe")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "C:\\Users\\gusi9\\source\\repos\\DavidFdezSalas\\OrderFlow\\ProyectoOrderFlow\\TiendaDavi" +
+    "d\\obj\\")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TiendaDavid")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e7523bd30949496369907b17a67094b9b13f3b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ceef8e5fc17d79f6a1c2f2e5784e43422a38f108")]
 [assembly: System.Reflection.AssemblyProductAttribute("TiendaDavid")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TiendaDavid")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

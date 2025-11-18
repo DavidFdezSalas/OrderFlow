@@ -17,5 +17,5 @@ public class TiendaDavid
     /// <summary>
     /// The path to the Aspire Host project.
     /// </summary>
-    public static string ProjectPath => """C:\Users\Oceano\Documents\David\OrderFlow\ProyectoOrderFlow\TiendaDavid""";
+    public static string ProjectPath => """C:\Users\gusi9\source\repos\DavidFdezSalas\OrderFlow\ProyectoOrderFlow\TiendaDavid""";
 }

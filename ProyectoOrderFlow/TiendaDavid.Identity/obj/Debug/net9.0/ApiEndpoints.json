@@ -1,6 +1,32 @@
 [
   {
     "ContainingType": "TiendaDavid.Identity.Controllers.UsersController",
+    "Method": "GetUser",
+    "RelativePath": "{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TiendaDavid.Identity.Controllers.UsersController\u002BUserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TiendaDavid.Identity.Controllers.UsersController",
     "Method": "CreateUser",
     "RelativePath": "api/Users/create",
     "HttpMethod": "POST",
