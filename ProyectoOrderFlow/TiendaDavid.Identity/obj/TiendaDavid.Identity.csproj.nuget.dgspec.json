@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid.Identity\\TiendaDavid.Identity.csproj": {}
+    "C:\\Users\\gusi9\\source\\repos\\DavidFdezSalas\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid.Identity\\TiendaDavid.Identity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid.Identity\\TiendaDavid.Identity.csproj": {
+    "C:\\Users\\gusi9\\source\\repos\\DavidFdezSalas\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid.Identity\\TiendaDavid.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid.Identity\\TiendaDavid.Identity.csproj",
+        "projectUniqueName": "C:\\Users\\gusi9\\source\\repos\\DavidFdezSalas\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid.Identity\\TiendaDavid.Identity.csproj",
         "projectName": "TiendaDavid.Identity",
-        "projectPath": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid.Identity\\TiendaDavid.Identity.csproj",
-        "packagesPath": "C:\\Users\\Oceano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Oceano\\Documents\\David\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid.Identity\\obj\\",
+        "projectPath": "C:\\Users\\gusi9\\source\\repos\\DavidFdezSalas\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid.Identity\\TiendaDavid.Identity.csproj",
+        "packagesPath": "C:\\Users\\gusi9\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gusi9\\source\\repos\\DavidFdezSalas\\OrderFlow\\ProyectoOrderFlow\\TiendaDavid.Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Oceano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gusi9\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -101,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

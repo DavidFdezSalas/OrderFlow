@@ -26,7 +26,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "C:\\Users\\gusi9\\source\\repos\\DavidFdezSalas\\OrderFlow\\ProyectoOrderFlow\\TiendaDavi" +
     "d\\obj\\")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TiendaDavid")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba7e36d00ddc226efd03a0101b7c91828f9230f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("TiendaDavid")]
