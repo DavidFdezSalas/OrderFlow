@@ -4,7 +4,7 @@
 
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
-		<TargetFramework>net9.0</TargetFramework>
+		<TargetFramework>net10.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<UserSecretsId>6aff7834-6d62-4083-a0f6-e72b67650e1a</UserSecretsId>
@@ -13,9 +13,10 @@
 	<ItemGroup>
 		<PackageReference Include="Aspire.Hosting.AppHost" />
 		<PackageReference Include="Aspire.Hosting.NodeJs" />
-		<PackageReference Include="Aspire.Hosting.PostgreSQL"/>
-		<PackageReference Include="Aspire.Hosting.Redis"/>
+		<PackageReference Include="Aspire.Hosting.PostgreSQL" />
+		<PackageReference Include="Aspire.Hosting.Redis" />
 		<PackageReference Include="AspNetCore.HealthChecks.Uris" />
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" />
 	</ItemGroup>
 
 	<ItemGroup>
