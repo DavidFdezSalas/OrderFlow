@@ -1,9 +1,6 @@
-using System.Text;
 using Asp.Versioning;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
 using Scalar.AspNetCore;
 using TiendaDavid.Identity.Data;
 
@@ -11,17 +8,24 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-
-// OpenAPI con configuración manual
-builder.Services.AddOpenApi();
-
 // Add version API
 builder.Services.AddApiVersioning(options =>
 {
-    options.DefaultApiVersion = ApiVersion.Default;
+    options.DefaultApiVersion = new ApiVersion(1, 0);
     options.AssumeDefaultVersionWhenUnspecified = true;
     options.ReportApiVersions = true;
+    options.ApiVersionReader = ApiVersionReader.Combine(
+        new UrlSegmentApiVersionReader()
+    );
+}).AddApiExplorer(options =>
+{
+    options.GroupNameFormat = "'v'V";
+    options.SubstituteApiVersionInUrl = true;
 });
+
+
+// OpenAPI con configuración manual
+builder.Services.AddOpenApi();
 
 // Database con Aspire
 builder.AddNpgsqlDbContext<ApplicationDbContext>("identitydb");
@@ -61,9 +65,15 @@ if (app.Environment.IsDevelopment())
 {
     // Map OpenAPI endpoint (sin versión, por defecto es "v1")
     app.MapOpenApi();
-    
+
     // Scalar UI
-    app.MapScalarApiReference();
+    app.MapScalarApiReference(options =>
+    {
+        options
+            .WithTitle("TiendaDavid Identity API")
+            .WithTheme(ScalarTheme.Purple)
+            .WithDefaultHttpClient(ScalarTarget.CSharp, ScalarClient.HttpClient);
+    });
 
     // Swagger UI
     app.UseSwaggerUI(options =>
