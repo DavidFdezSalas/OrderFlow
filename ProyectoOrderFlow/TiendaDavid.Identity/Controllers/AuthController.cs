@@ -61,7 +61,7 @@ namespace TiendaDavid.Identity.Controllers
                 _logger.LogWarning("Invalid email or password");
                 return Unauthorized(new LoginResponse()
                 {
-                    Message = "User not found",
+                    Message = "Invalid email or password",
                     Token = null,
                     Email = null
                 });

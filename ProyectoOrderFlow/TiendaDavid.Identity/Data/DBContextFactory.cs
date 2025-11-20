@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
-using TiendaDavid.Identity.Data;
 
 namespace TiendaDavid.Identity.Data
 {

@@ -114,7 +114,7 @@ namespace TiendaDavid.Identity.Controllers
 
         }
 
-        [HttpGet("/{id}")]
+        [HttpGet("{id}")]
         public async Task<ActionResult<UserResponse>> GetUser(string id)
         {
             var user = await _userManager.FindByIdAsync(id);
