@@ -3,7 +3,8 @@ var builder = DistributedApplication.CreateBuilder(args);
 var postgres = builder.AddPostgres("postgres")
     .WithDataVolume(isReadOnly: false)
     .WithLifetime(ContainerLifetime.Persistent)
-    .WithHostPort(51197);
+    .WithHostPort(51197)
+    .WithPgAdmin(pgAdmin => pgAdmin.WithHostPort(5050));
 var postgresdb = postgres.AddDatabase("identitydb");
 
 //var cache = builder.AddRedis("cache");

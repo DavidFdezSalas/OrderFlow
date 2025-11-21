@@ -1,0 +1,14 @@
+﻿namespace TiendaDavid.Identity.Data
+{
+    public static class Roles
+    {
+        public const string Admin = nameof(Admin);
+        public const string Customer = nameof(Customer);
+
+        public static IEnumerable<string> GetAllRoles()
+        {
+            yield return Admin;
+            yield return Customer;
+        }
+    }
+}
